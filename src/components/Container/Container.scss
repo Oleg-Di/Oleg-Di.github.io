@@ -1,0 +1,17 @@
+.Container {
+    position: relative;
+    display: flex;
+    &__card {
+        display: flex;
+        width: 60%;
+        flex-wrap: wrap;
+    }
+}
+
+.Vision {
+    position: absolute;
+    margin: 2rem 6rem;
+    transition: all ease-out 1s;
+   
+    
+}

@@ -1,0 +1,42 @@
+.Random {
+    padding: 5px;
+    box-shadow: 2px 2px 5px 5px rgb(129, 128, 128);
+    width: 65%;
+    &__block {
+        display: flex;
+        justify-content: flex-start;
+        &__info {
+            display: flex;
+            width: 46rem;
+            justify-content: flex-start;
+            &__text {
+                margin-left: 2rem;
+                font-style: italic;
+                font-weight: 400;
+                height: 8rem;
+            }
+            &__button {
+                margin-left: 2rem;
+                display: flex;
+                justify-content: space-around;
+                width: 20rem;
+                
+
+            }
+        }
+    }
+    &__search {
+        font-style: italic;
+        border-left: 2px solid black;
+        margin-left: 5px;
+        padding-left: 10px;
+        width: 20rem;
+        position: relative;
+        img{
+            position: absolute;
+            width: 8rem;
+            top: 3rem;
+            left: 13rem
+        }
+    }
+}
